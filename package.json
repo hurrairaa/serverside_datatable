@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "laravel-vue-datatable": "^0.6.0"
+        "laravel-vue-datatable": "^0.6.0",
+        "vue2-daterange-picker": "^0.6.2"
     }
 }
