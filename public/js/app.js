@@ -1918,6 +1918,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -55524,7 +55525,11 @@ var render = function() {
       _c("br"),
       _vm._v(" "),
       _c("data-table", {
-        attrs: { columns: _vm.columns, url: "http://127.0.0.1:8000/datatable" }
+        attrs: {
+          "per-page": ["10", "25", "50", "100", "200", "400"],
+          columns: _vm.columns,
+          url: "http://127.0.0.1:8002/datatable"
+        }
       })
     ],
     1
