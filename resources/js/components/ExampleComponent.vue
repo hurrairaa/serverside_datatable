@@ -4,7 +4,7 @@
             <data-table
                 :per-page="['10','25','50','100','200','400']"
                 :columns="columns"
-                url="http://127.0.0.1:8002/datatable">
+                url="http://127.0.0.1:8000/datatable">
             </data-table>
     </div>
 </template>

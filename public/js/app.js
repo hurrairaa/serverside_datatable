@@ -55528,7 +55528,7 @@ var render = function() {
         attrs: {
           "per-page": ["10", "25", "50", "100", "200", "400"],
           columns: _vm.columns,
-          url: "http://127.0.0.1:8002/datatable"
+          url: "http://127.0.0.1:8000/datatable"
         }
       })
     ],
